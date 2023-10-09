@@ -1,0 +1,30 @@
+.bList {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.bListItem {
+  flex: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.bListImg {
+  width: 100%;
+  height: 80%;
+  border-radius: 10px;
+}
+
+.bListTitles > h1 {
+  font-size: 18px;
+  color: rgb(7, 6, 6);
+}
+
+.bListTitles > h2 {
+  font-size: 14px;
+  font-weight: 300;
+}

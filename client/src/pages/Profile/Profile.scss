@@ -1,0 +1,70 @@
+.wrapper{
+  max-width: 900px;
+padding-left: 20px; 
+background-color: #ffffff;
+border-radius: 8px;
+margin-left: 250px;
+margin-top: 50px;
+
+} 
+
+.avatar img {
+   margin-left: 330px;
+    cursor: pointer;
+    width: 150px;
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    border: 2px solid #3498db; 
+    margin-top: -50px;
+}
+/* Profile.scss */
+.password-input {
+  position: relative;
+}
+
+.shadow-lg{
+
+max-width: 900px;
+padding-left: 20px;
+padding-right: 20px;
+background-color: #ffffff;
+border-radius: 8px;
+margin-left: 20px; 
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+align-items: center;
+
+}
+.imput-gara
+{
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-left: 350px;
+      cursor: pointer;
+      border-radius: 30px;
+      background-color: #1f5156;
+      color: #ffffff;
+      margin-top: 20px;
+    }
+
+.update{
+  padding-bottom: 20px;
+  width: 100%;
+.button{
+  margin-left: 350px;
+}
+}
+.input
+{
+  color: #1f618d;
+}
+

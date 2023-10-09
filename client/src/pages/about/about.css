@@ -1,0 +1,66 @@
+
+.about-container {
+  padding: 50px 0;
+  margin-top: -20px;
+}
+.about-section {
+  background-color: rgb(215, 240, 245);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+.about-heading {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.about-heading1
+{
+  margin-left: 500px;
+  color: rgb(105, 106, 175);
+  margin-top: 80px;
+  margin-bottom: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+
+}
+.about-description {
+  font-size: 18px;
+  color: #333;
+  text-align: justify;
+}
+.about-image1 img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.contact-info {
+  margin-top: 50px;
+  background-color: rgb(255, 222, 222);
+  padding: 20PX;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.contact-heading {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.contact-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.contact-icon {
+  font-size: 36px;
+  margin-right: 20px;
+  color: #007bff; 
+}
+.contact-text {
+  font-size: 18px;
+  color: #333;
+}
+.about-image img {
+  width: 50%; /* Set maximum width to 100% of the parent container */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Optional: Add margin to the bottom of the images */
+  margin-left: 200px;
+}

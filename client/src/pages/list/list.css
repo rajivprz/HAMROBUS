@@ -1,0 +1,277 @@
+/* Styles for the list container */
+.listContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255);
+  margin-top: -190px;
+}
+#root
+{
+  background-color: rgb(255, 255, 255) ;
+}
+/* Styles for the list wrapper */
+.listWrapper {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  gap: 20px;
+  margin-left: -400px;
+  background-color: rgb(255, 255, 255);
+}
+
+/* Styles for the search section */
+.listsearch {
+  border-radius: 10px;
+  height: max-content;
+  width: 400px;
+  margin-left: 200px;
+  flex: 1;
+  background-color: pink;
+  position: sticky;
+  top: 10px;
+  border-radius: 10px;
+  padding: 20px; /* Add padding for better spacing */
+  box-sizing: border-box; /* Include padding in the width */
+  display: flex;
+  flex-wrap: wrap; /* Enable wrapping for items */
+  gap: 10px;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+
+}
+
+/* Styles for search section titles */
+.lsTitles {
+  font-size: 20px;
+  color: #555;
+
+  margin-left: 60px;
+}
+
+/* Styles for search input items */
+.lsItem {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+/* Styles for labels inside search items */
+.lsItem > label {
+  font-size: 12px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Styles for the date picker */
+.lsItem > span {
+  height: 30px;
+  background-color: aqua;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.listresult
+{
+  margin-left: -100px;
+  margin-right: none;
+  width: 1000px;
+}
+/* Styles for the search button */
+.listsearch > button {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  width: 400px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Styles for input fields */
+.lsItem > input {
+  height: 30px;
+  border: none;
+  padding: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: aqua;
+  color: black;
+  width: 100%;
+}
+/* ... (previous code) */
+
+/* Styles for the list container */
+.listContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Styles for the list wrapper */
+.listWrapper {
+  width: 100%;
+  max-width: 800px; /* Adjust the maximum width to your desired size */
+  display: flex;
+  flex-direction: column; /* Change to column layout for equal height */
+  gap: 20px;
+  margin-left: auto;
+  margin-right: auto; /* Center the content horizontally */
+}
+
+/* Styles for the search section */
+.listsearch {
+  flex: 1;
+  background-color: rgb(51, 205, 244);
+  position: sticky;
+  top: 10px;
+  border-radius: 10px;
+  height: max-content;
+}
+
+/* Styles for search section titles */
+.lsTitles {
+  font-size: 20px;
+  color: #555;
+
+  margin-left: 60px;
+}
+
+/* Styles for search input items */
+.lsItem {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+/* Styles for labels inside search items */
+.lsItem > label {
+  font-size: 12px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Styles for the date picker */
+.lsItem > span {
+  height: 30px;
+  background-color: rgb(246, 251, 251);
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.listresult
+{
+  margin-left: -100px;
+  margin-right: none;
+  width: 1000px;
+}
+/* Styles for the search button */
+.listsearch > button {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  width: 400px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Styles for input fields */
+.lsItem > input {
+  height: 30px;
+  border: none;
+  padding: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  width: 100%;
+}
+/* ... (previous code) */
+
+/* Styles for the list container */
+.listContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Styles for the list wrapper */
+.listWrapper {
+  width: 100%;
+  max-width: 800px; /* Adjust the maximum width to your desired size */
+  display: flex;
+  flex-direction: column; /* Change to column layout for equal height */
+  gap: 20px;
+  margin-left: auto;
+  margin-right: auto; /* Center the content horizontally */
+}
+
+
+
+/* Styles for search section titles */
+.lsTitles {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Styles for search input items */
+.lsItem {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+  width: 100%; /* Make input items full width */
+}
+
+/* Styles for labels inside search items */
+.lsItem > label {
+  font-size: 12px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Styles for the date picker */
+.lsItem > span {
+  height: 30px;
+  background-color: white;
+  background-color: rgb(246, 255, 255);
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Styles for the search button */
+.listsearch > button {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  width: 100%; /* Make the button full width */
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Styles for input fields */
+.lsItem > input {
+  height: 30px;
+  border: none;
+  padding: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  width: 100%; /* Make input fields full width */
+}
+
+/* ... (rest of the code) */

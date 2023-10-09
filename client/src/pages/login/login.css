@@ -1,0 +1,50 @@
+.login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./bus.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.lContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 240px;
+  width: 400px;
+  background-color: #f6ce96;
+  padding: 20px 20px;
+  border-radius: 20px;
+  margin-top: -460px;
+}
+
+.lInput {
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.lButton {
+  border: none;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.lButton:disabled {
+  background-color: #0071c28c;
+  cursor: not-allowed;
+}
+.admin_text
+{
+  align-self: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

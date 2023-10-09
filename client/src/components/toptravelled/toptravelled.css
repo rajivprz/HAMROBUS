@@ -1,0 +1,53 @@
+.toptravelled{
+   width: 100%;
+   max-width: 1024px;
+   display: flex;
+   justify-content: space-between;
+   gap: 10px;
+   z-index: 1;
+}
+.toptravelledItem{
+   position: relative;
+   color: white;
+   border-radius: 10px;
+   overflow: hidden;
+   height: 250px;
+   cursor: pointer;
+   width: 336px;   
+}
+.toptravelledItem:hover{
+   position: relative;
+   color: white;
+   border-radius: 10px;
+   overflow: hidden;
+   height: 250px;
+   cursor: pointer;
+   width: 336px;   
+}
+.toptravelledTitles{
+   position: absolute;
+   bottom: 20px;
+   left: 20px;
+   margin-left: 0px;
+   color: rgb(166, 242, 111);
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.toptravelledImg{
+   width: 100%;
+   object-fit: cover;
+   height: 100%;
+}
+.image{
+   object-fit: cover;
+   height: 100%;
+}
+.image:hover{
+   transition: 2s;
+   height: 110%;
+   cursor: pointer;
+}
+.toptravelledImg:hover{
+  transition: 2s;
+   height: 110%;
+   cursor: pointer;
+}
